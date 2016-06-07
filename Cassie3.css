@@ -1,0 +1,228 @@
+html {
+      
+    
+}
+
+body {
+    font-size: 100%;
+    background: url("http://www.photohdx.com/images/2015/11/vintage-old-brown-canvas-texture-background1.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.homecard {
+    color: #1a0d00;
+    text-align: center;
+    width: 100%;
+    font-family: 'Reenie Beanie', cursive;
+    text-shadow: 0 0 5px #331a00;
+    margin-top: 20vh;
+}
+
+.homecard h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 8vw;
+    text-shadow: 0 0 5px #331a00, 0 0 15px #331a00;
+}
+
+.homecard h2 {
+   font-size: 8vw;
+   
+}
+
+.homecard h3 {
+    font-size: 4vw;
+}
+
+.navbar-custom {
+    background-color: #1a0d00;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#ffd9b3;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 1.5em;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    text-shadow: 0 0 5px #fff2e6, 0 0 15px #fff2e6;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {        text-decoration: none; 
+     text-shadow: 0 0 5px #ffffcc, 0 0 15px #fff2e6;
+     background-color:transparent; 
+}
+
+.navbar-custom .navbar-brand {
+    color:#fff2e6;
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 0 0 5px #fff2e6, 0 0 15px #fff2e6;
+}
+
+.social{
+        font-size: 5vw;
+}
+
+.social li {
+    display: inline-block;
+    padding: 1vh;
+    list-style-type: none;  
+}
+
+.social ul {
+    margin-top: 10vh;
+    text-align: center;   
+}
+
+.social i{
+    color: #1a0d00;
+}
+
+.social i:hover {
+    text-decoration: none;
+    text-shadow: 0 0 5px #331a00, 0 0 15px #331a00;
+}
+
+div.img {
+    box-shadow: 0 0 5px #331a00, 0 0 15px #331a00;
+    border: 1px solid #331a00;
+    padding: 2%;
+    background-color: antiquewhite;
+
+}
+
+div.img:hover {
+    border: 1px solid #777;
+    box-shadow: 0 0 5px #331a00, 0 0 15px #331a00;
+    background-color: antiquewhite;
+}
+
+div.img img {
+    
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 150%;
+    padding: 15px;
+    text-align: center;
+    color: #331a00;
+    width: 100%;
+}
+
+
+.responsive {
+    margin: auto;
+    padding: 2%;
+    float: left;
+    width: 24.99999%;
+    font-size: 100%;
+}
+
+.responsive2 {
+
+    padding: 2%;
+    margin: auto;
+    width: 49.999999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        padding: 1%;
+        width: 49.99999%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        padding: 1%;
+        width: 100%;
+        margin: auto;
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .responsive2 {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+*{
+  box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+
+form {
+    background-color:antiquewhite;
+    color: #331a00;
+    padding: 2%;
+    width: 75%;
+    margin: auto;
+    box-shadow: 0 0 5px #331a00, 0 0 15px #331a00;
+    border: 1px solid #331a00;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 150%;
+    text-shadow: 0 0 5px #331a00;
+}
+
+
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form textarea {
+    width:100%;
+    box-shadow:inset 0 1px 2px #331a00, 0 1px 0 #331a00;
+    -webkit-box-shadow:inset 0 1px 2px #331a00, 0 1px 0 #331a00;
+    -moz-box-shadow:inset 0 1px 2px #331a00, 0 1px 0 #331a00;
+    border:1px solid #331a00;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:2px;
+}
+
+#contact-form button[type="submit"] {
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:antiquewhite;
+    color:#331a00;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:2px;
+    box-shadow: 0 0 5px #331a00, 0 0 15px #331a00;
+    text-shadow: 0 0 5px #331a00;
+    font-size: 150%;
+
+}
+
+::-webkit-input-placeholder {
+    color: tan;
+}
+:-moz-placeholder {
+    color:tan;
+}
+::-moz-placeholder {
+    color:tan;
+}
+:-ms-input-placeholder {
+    color:tan;
+}
+
+.footer {
+  padding: 3%;
+}
